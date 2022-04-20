@@ -1,0 +1,54 @@
+.profile{
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .profile::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .profile {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .feed__header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+  }
+  
+
+
+
+  .profileDetails > h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-left: 2px;
+  }
+
+  .profileDetails{
+    padding: 20px;
+  }
+
+  .profileDetails > h4 {
+      display: flex;
+      align-items: center;
+      justify-content:flex-start;
+      margin-bottom: 10px;
+      color: gray;
+      font-weight: 400;
+  }
+
+  h4 > .MuiSvgIcon-root{
+      margin: 5px;
+      margin-left: 0px;
+      
+  }

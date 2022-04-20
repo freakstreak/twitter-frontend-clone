@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+    height: 100vh;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+input:focus{
+    outline: none;
+}

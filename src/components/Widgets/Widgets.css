@@ -1,0 +1,67 @@
+.widgets {
+  flex: 0.3;
+}
+
+.widgets__input {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.widgets__input > input {
+  border: none;
+  background-color: var(--twitter-background);
+}
+
+.widgets__searchIcon {
+  color: gray;
+}
+
+.widgets__container {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 0px 20px 20px 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+  
+  .widgets__container > h2 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+.widgets__container {
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.widgets__container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.widgets__container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.widgets__container__header {
+  position: sticky;
+  top: 0;
+  background-color: #f5f8fa;
+  z-index: 100;
+  border-bottom: 1px solid var(--twitter-background);
+  padding: 15px 0px ;
+}
+
+
+@media only screen and (max-width: 840px) {
+  .widgets{
+    display: none;
+  }
+}
