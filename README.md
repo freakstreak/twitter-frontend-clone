@@ -2,6 +2,15 @@
 
 https://twitter-clone-task.netlify.app
 
+# To run this app locally on your system follow these steps
+
+-> open command line and run "git clone https://github.com/freakstreak/twitter-frontend-clone" .\
+-> now in command line cd to the folder in which you have cloned the app.\
+-> now inside it run "npm install".\
+-> after that to run this project locally run "npm start".\
+-> go to your web browser and type "http://localhost:3000/" in url.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
